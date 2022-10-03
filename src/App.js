@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <header>
+        <header className="App-header">
         </header>
         <main>
           <Dictionary />
