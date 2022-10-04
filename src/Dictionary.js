@@ -7,8 +7,10 @@ export default function Dictionary() {
     let [keyword, setKeyword] = useState('');
 
     function handleResponse(res){
-        console.log('res', res);
-
+        let data = res.data;
+        for (let i = 0; i < data.length; i++) {
+            console.log('res', data[i]);
+        }
     }
 
     function search(e){
