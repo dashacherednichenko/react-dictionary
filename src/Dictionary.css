@@ -1,3 +1,8 @@
+.Dictionary {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
 .Dictionary section {
     box-shadow: 0 30px 50px rgb(65 50 100 / 8%);
     border-radius: 8px;
