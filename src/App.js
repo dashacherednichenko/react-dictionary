@@ -1,22 +1,21 @@
-import logo from './logo.svg';
 import './App.css';
+
+import Header from "./Header";
 import Footer from "./Footer";
 import Dictionary from "./Dictionary";
 
 function App() {
-  return (
-    <div className="App">
-      <div className="container">
-        <header className="App-header">
-        </header>
-        <main>
-          <Dictionary />
-        </main>
-        <Footer />
-      </div>
-
-    </div>
-  );
+    return (
+        <div className="App">
+            <Header/>
+            <main>
+                <div className="container">
+                    <Dictionary/>
+                </div>
+            </main>
+            <Footer/>
+        </div>
+    );
 }
 
 export default App;

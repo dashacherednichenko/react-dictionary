@@ -10,7 +10,7 @@ export default function Dictionary() {
 
     function handleResponse(res) {
         let data = res.data;
-        setResults( res.data );
+        setResults(res.data);
         // for (let i = 0; i < data.length; i++) {
         //     let defs = data[i].meanings[0].definitions;
         //     for (let i = 0; i < defs.length; i++) {
@@ -22,22 +22,22 @@ export default function Dictionary() {
     function search(e) {
         e.preventDefault();
         let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
-        // console.log("search", keyword);
         axios(apiUrl).then(handleResponse);
-        // alert(`User search for "${keyword}"`);
     }
 
     function handleSearchInputChange(e) {
-        // console.log("search.input", e.target.value);
         setKeyword(e.target.value);
     }
 
     return (
         <div className="Dictionary">
-            <form onSubmit={search}>
-                <input type="search" onChange={handleSearchInputChange}/>
-            </form>
-            <Result results={results} />
+            <section>
+                <form onSubmit={search}>
+                    <label>What word do you want to look up?</label>
+                    <input type="search" className="search-input" onChange={handleSearchInputChange}/>
+                </form>
+            </section>
+            <Result results={results}/>
         </div>
     );
 }

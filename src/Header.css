@@ -1,0 +1,13 @@
+.navbar {
+    padding: 0.5rem 1rem;
+    min-height:50px;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 26px;
+    line-height: inherit;
+    white-space: nowrap;
+}

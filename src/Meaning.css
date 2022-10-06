@@ -1,4 +1,5 @@
 .Meaning em {
-    /*font-style: italic;*/
-    font-size: 12px;
+    font-size: 13px;
+    line-height: 15px;
+    color: #666;
 }
