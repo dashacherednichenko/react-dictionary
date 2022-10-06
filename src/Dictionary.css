@@ -62,3 +62,8 @@
 .Phonetic-el span {
     /*padding-right: 20px;*/
 }
+
+.Photos img {
+    border-radius: 6px;
+    margin: 10px 0;
+}
