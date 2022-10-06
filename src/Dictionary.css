@@ -42,7 +42,18 @@
     margin-bottom: 20px;
     color: #000;
 }
+
 .Synonyms span {
     margin-right: 20px;
     font-style: italic;
+}
+
+.Phonetic-el {
+    margin: 20px 0 0;
+    display: flex;
+    align-items: center;
+}
+
+.Phonetic-el span {
+    /*padding-right: 20px;*/
 }

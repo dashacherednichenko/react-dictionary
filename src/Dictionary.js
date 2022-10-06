@@ -11,6 +11,7 @@ export default function Dictionary() {
     function handleResponse(res) {
         let data = res.data;
         setResults(res.data);
+        // console.log(res.data);
         // for (let i = 0; i < data.length; i++) {
         //     let defs = data[i].meanings[0].definitions;
         //     for (let i = 0; i < defs.length; i++) {
