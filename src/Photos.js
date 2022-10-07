@@ -2,7 +2,6 @@ import React from "react";
 import Photo from "./Photo";
 
 export default function Photos(props){
-    // console.log(props.photos);
     if(props.photos.length) {
         return(
             <div className="Photos">
